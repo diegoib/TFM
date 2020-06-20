@@ -73,7 +73,7 @@ source('~/Dropbox/Tesina/TFM R/cod/ARNN.R')
 
 # write.csv(series, "~/Desktop/series_tfm.csv", row.names = FALSE)
 
-series <- read.csv("~/Desktop/series_tfm.csv")
+series <- read.csv("~/Desktop/data.csv")
 
 ## relleno NAs (no hago interpolación)
 
