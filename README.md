@@ -1,4 +1,4 @@
-# Trabajo Final de Máster(TFM): Ingeniería de Sistemas de Decisión
+# Trabajo Final de Máster en Ingeniería de Sistemas de Decisión (TFM)
 
 Este trabajo se corresponde con el análisis, entrenamiento y predicción de las series temporales sobre precios promedio de las entradas en eventos socioculturales en EEUU realizado por Diego Iglesias y Yousaf Syed.
 
