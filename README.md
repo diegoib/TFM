@@ -1,6 +1,29 @@
 # Trabajo Final de Máster(TFM): Ingeniería de Sistemas de Decisión
 
-Este código se corresponde con el análisis, entrenamiento y predicción de las series temporales sobre precios promedio de las entradas en eventos socioculturales en EEUU.
+Este trabajo se corresponde con el análisis, entrenamiento y predicción de las series temporales sobre precios promedio de las entradas en eventos socioculturales en EEUU realizado por Diego Iglesias y Yousaf Syed.
 
 El código es de mi autoría.
+
+## Forecast upticks for the ticket industry in the United States using modern engineering and data analysis techniques based on time series
  
+**Abstract-** The supply and demand in the ticket market (Ticket Industry) change fastly. Without automated pricing technology, it is impossible for ticket sellers to verify and update the prices of their entire inventory in real-time. Since many vendors manage thousands of tickets simultaneously, manual pricing is time consuming and lead to high inefficiency.  To improve the insights in the market, we propose a solution for uptick and downtick forecast based in the event, considering the zone or section level of the venue. In this paper is proposed a method to construct the data pipelines at the scale of big data, and make predictions using both clustering techniques and modeling procedures for time series.
+
+**Index Terms-** *Big data, data pipelines, ticket industry, clustering, time series*
+
+### Introduction
+
+Data alone does not matter unless relevant information is extracted to support decision making, it requires data analysis for extracting useful information. This information, in turn, helps decision-makers to take appropriate actions. On one hand, it is faced a problem on dealing and managing the information. Traditionally, we used to store and process data in relational database management systems (RDBMS), which were designed primarily for vertical growth. (i.e., add more central processing units (CPU) and random access memory (RAM) to systems). As the industry is already in "Exabyte & Zettabyte Age" data, traditional approaches such as RDBMS have faced limitations to store and process this huge amount of digital data due to its architectural principles designed during the 1970s. Moniruzzaman (2014) compares SQL based RDBMS, NoSQL and NewSQL databases with set of metrics; as well as, addressed some research issues of NoSQL and NewSQL, Zafar et al. (2016) provides a review and the comparison between NoSQL and Relational Database Management System (RDBMS).
+
+Big Data is considered by several authors as a large amount of data, structured or unstructured, that satisfy the five V’s properties: volume, velocity, variety, veracity and value. To solve the emerging problem of data management and data analysis, several technologies have emerged in recent decades. In this paper, we focus on "Cloud computing" platforms where thousands of servers work together to meet different computing needs, and billing is done according to the "pay as you go" model. This is because, when compared with traditional Dataware houses with physical servers, the cloud computing abstracts a lot of complexity in terms of infrastructure's scalability and security, with all the tools housed under one platform available at your disposal when you need them. Architectures and applications of several popular cloud computing platforms are analyzed and discussed in detail on Peng et al. (2009), regarding the challenges and solutions of big data and cloud analytics. Therefore, ManjuSharma. (2017) presents the analysis and management of Big Data resources as an objective.
+
+On the other hand, there is the challenge of drawing conclusions from the information. To do this, it is necessary to treat the stored information, taking into account its temporality, in order to make predictions that anticipate the movements in the market. To this challenge is added the handling of thousands of time series at a time, which implies looking for solutions for their simultaneous analysis, and the need to use mechanisms and algorithms that allow a precise prediction for each of the areas and sections of each event.
+
+Ticket industry has been around for a very long time, and it has evolved from on-desk sales at the venue to modern e-commerce platforms for ticket retails and reselling. Thousands of ticket brokers buy and sell tickets for sports, concerts and theaters every day on platforms like Stub-hub, Vivid-seats and Ticketmaster. 
+
+As there are hundreds of ticket sellers competing online to sell their tickets, to be competitive in such a saturated market you have to be able to analyze data, i.e from sales and market places. In this paper, we address the problem for ticket sellers, teams and venues by proposing data processing and analysis methodologies to predict upticks in the ticket industry by just using publicly available data.
+
+There are two different problems that we are addressing in this paper.
+    1. Data storage: Ticket industry has a huge amount of moving data, this paper addresses the problem of scalable cost-efficient storage and processing techniques that required for the analysis.
+    2. Data analysis: Once we have historical data processed in time-series for different concerts, seasons and sporting events, this paper compares different algorithms and solutions that allow, based on precision metrics and computational complexity, to put into a productive environment a tool that supports business decision making. Under the time series methodology, the objective of providing the end customer with important information for making decisions about their portfolio of cultural event entries is achieved. For this, two techniques of clustering and prediction time series will be combined.
+
+The paper has been organized as follows: section 2 shows the clustering and forecast methodologies. Section 3 presents the datasets and data processing and architecture. The results are shown in section 4, followed by the discussion. Section 5 describes the main conclusions of this work and further future research.
